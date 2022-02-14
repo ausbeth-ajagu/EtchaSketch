@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(nicebackground.jpg);
+    background-size: cover;
+    opacity: 1;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    flex: 1;
+    max-width: 720px;
+    max-height: 720px;
+    
+
+}
+
+.gridSquare {
+    box-sizing: border-box;
+}
+label {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+.buttons {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4px;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.slidecontainer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+}
+.slider {
+    width: 200px;
+    
+}
